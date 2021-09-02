@@ -1,13 +1,4 @@
-<html>
-	<head>
-		<title>Home</title>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<?php
-		//phpinfo();
-            //define(DADOS, array('nome'=>'Claudio', 'sobrenome'=>'oliveira'));
-
+<?php
 
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
@@ -20,6 +11,4 @@
 			}else{
 				include '404.php';
 			}			
-		?>
-	</body>
-</html>
+?>
